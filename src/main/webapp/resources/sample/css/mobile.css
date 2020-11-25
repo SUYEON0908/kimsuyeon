@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* 모바일용 스타일지정 시작  */
+body {font-size:14px;} /*부트스트랩 css영향을 받을 것을 무효화시키고 사용자 css로 적용*/
 /* 헤더영역 시작 */
 .header {
 height:80px;
@@ -19,7 +20,7 @@ font-weight:normal;/*글자두께*/
 text-indent:-9999%;/*들여쓰기*/
 display:block;
 height:80px;
-background:url(/resources/sample/img/ball.png) no-repeat;/*배경이미지 기본이 반복repeat*/
+background:url(/resources/sample/img/wreath.png) no-repeat;/*배경이미지 기본이 반복repeat*/
 background-size:90%;
 background-position:0px center;/*배경위치는 0px(가로) center(세로)*/
 }
@@ -63,6 +64,7 @@ color:#fff;
 
 /* 본문섹션 슬라이드영역 시작 */
 #wrap .slider img {width:100%;}/* Cascade Style Sheet 특징 계단형 스타일지정 */
+.carousel-item, .carousel-item img {height:300px;}
 /* 본분섹션 슬라이드영역 끝 */
 
 /* 푸터영역 시작 */
