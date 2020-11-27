@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!-- jsp:javaServerpage 자바서버용페이지 -->
-<%-- 자바주석시작
-jsp에서 자바프로그램을 사용할때에 쓰는 태그가 <%  %> 감싸주게 됨
-다른언어PHP예를 들면 <? ?>로 감싸주게 됨
-@ page골뱅이는 애노테이션(발음)-페이지 지시자 필수 랭귀지:java,
-콘텐츠타입:text/html; 문자셋:유니코드 페이징인코딩:유니코드UTF-8
-자바주석끝 --%>
+<!-- html주석시작 jsp: JavaServerPage 자바서버용페이지 -->
+<%-- 자바주석시작 하이픈(-)
+- jsp파일에서 자바프로그램을 사용할때 쓰는 태그가 <% %> 감싸주게 됩니다.
+- 다른언어 PHP예를 들면 <?php ?>꺽쇠로 감싸주게 됩니다.
+- @ page골뱅이는 애노테이션으로 발음-페이지지시자는 필수입니다. 랭귀지:java, 
+- 콘텐츠타입:text/html; 문자셋:유니코드  페이지인코딩:UTF-8 
+자바주석 끝 --%>
 
 <!-- HomeController.java 에서 index.jsp로 매칭 시킨 결과가 나오는 페이지 입니다.<br>
 - HTML에서는 /resoureces/sample/index.html 이렇게 접근합니다.<br>
@@ -20,7 +20,7 @@ jsp에서 자바프로그램을 사용할때에 쓰는 태그가 <%  %> 감싸�
 - 여기서 MVC에서 View단에 해당하는 기술 부분이 jsp 입니다.<br>
 - MVC = Model(데이터베이스) - View(jsp페이지) <-> Controller(컨트롤러java클래스)<br>
 - org.edu.controller 패키지명: 자바클래스가 있는 폴더 경로를 말합니다.<br>
-- 패키지를 사용하는 이유: 자바클래스를 기능별로 묶어놓기 위해서 명시적으로 만든 묶음.<br></body>-->
+- 패키지를 사용하는 이유: 자바클래스를 기능별로 묶어놓기 위해서 명시적으로 만든 묶음.<br>   -->
 
 <%@ include file="./include/header.jsp" %>
 
@@ -59,11 +59,3 @@ jsp에서 자바프로그램을 사용할때에 쓰는 태그가 <%  %> 감싸�
 </section>
 
 <%@ include file="./include/footer.jsp" %>
-<footer class="footer">
-<!-- 하단 로고 영역 시작 -->
-<p>LOGO</p><!-- 문장영역을 의미하는 Paragraph 태그입니다. -->
-<!-- 하단 로고 영역 끝 -->
-</footer>
-</div>
-</body>
-</html>

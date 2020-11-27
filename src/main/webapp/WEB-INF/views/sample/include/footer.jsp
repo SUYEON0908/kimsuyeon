@@ -1,13 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
 
+<footer class="footer">
+<!-- 하단 로고 영역 시작 -->
+<p>LOGO</p><!-- 문장영역을 의미하는 Paragraph 태그입니다. -->
+<!-- 하단 로고 영역 끝 -->
+</footer>
+</div>
 </body>
 </html>
+© 2020 GitHub, Inc.

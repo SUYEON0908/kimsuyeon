@@ -24,14 +24,11 @@
 <!-- :콜론(속성:값, Key:Value), ;세미콜론(문장의 끝) -->
 <style>
 /*@미디어쿼리사용-메타태그viewport값필수*/
-/*pc용 스타일시작*/
-/*미디어쿼리:미디어의 가로크기가 768px 이상이면 아래 스타일 적용*/
+/*PC용 스타일시작*/
+/*미디어쿼리:미디어의 가로크기가 1132px 이상이면 아래 스타일 적용*/
 @media all and (min-width:1132px) {
-
-
-
 }
-/*pc용 스타일 끝*/
+/*PC용 스타일 끝*/
 </style>
 <script>
 /* 자바스크립트 시작 */
@@ -49,7 +46,7 @@ $(document).ready(function(){
 <header class="header">
 <!-- 상단 로고와 햄버거 메뉴영역 시작 -->
 <h1 class="logo">
-<a href="index.html">LOGO</a><!-- a태그는 페이지이동역할, href헤르프 속성값에 URL을 입력해서 이동 -->
+<a href="/">LOGO</a><!-- a태그는 페이지이동역할, href헤르프 속성값에 URL을 입력해서 이동 -->
 </h1><!-- 헤드라인 글자를 표시 h1~h6 -->
 <div class="menu-toggle-btn">
 <span></span>
@@ -61,11 +58,11 @@ $(document).ready(function(){
 <nav class="gnb"><!-- gnb:글로벌네이게이션:전체영역메뉴  Global Navigagion -->
 <!-- 리스트를 모여주는 태그 ul(UnOrdered List *.~, *.~ ) , ol(Ordered List 1.~, 2.~ ) -->
 <ul>
-<li><a href="index.html">HOME</a></li>
-<li><a href="weare.html">WE ARE</a></li>
-<li><a href="work.html">WORK</a></li>
-<li><a href="blog.html">BLOG</a></li>
-<li><a href="contact.html">CONTACT US</a></li>
+<li><a href="/">HOME</a></li>
+<li><a href="/weare">WE ARE</a></li>
+<li><a href="/work">WORK</a></li>
+<li><a href="/blog">BLOG</a></li>
+<li><a href="/contact">CONTACT US</a></li>
 </ul>
 </nav>
 <!-- 상단 로고와 햄버거 메뉴영역 끝 -->
