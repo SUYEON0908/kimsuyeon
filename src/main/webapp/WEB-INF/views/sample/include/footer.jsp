@@ -9,4 +9,3 @@
 </div>
 </body>
 </html>
-© 2020 GitHub, Inc.
