@@ -42,4 +42,4 @@ submit(전송)하는것이 목적. -->
 </section>
 
 
-<%@ include file="./include/footer.jsp" %>vv
+<%@ include file="./include/footer.jsp" %>
