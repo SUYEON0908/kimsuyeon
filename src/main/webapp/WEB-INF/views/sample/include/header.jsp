@@ -24,9 +24,6 @@
 /*PC용 스타일시작*/
 /*미디어쿼리:미디어의 가로크기가 1132px 이상이면 아래 스타일 적용*/
 @media all and (min-width:1132px) {
-
-
-
 }
 /*PC용 스타일 끝*/
 </style>
@@ -58,12 +55,12 @@ $(document).ready(function(){
 <nav class="gnb"><!-- gnb:글로벌네이게이션:전체영역메뉴  Global Navigagion -->
 <!-- 리스트를 모여주는 태그 ul(UnOrdered List *.~, *.~ ) , ol(Ordered List 1.~, 2.~ ) -->
 <ul>
+<li><a href="/sample">SampleHOME</a></li>
+<li><a href="/sample/weare">WE ARE</a></li>
+<li><a href="/sample/work">WORK</a></li>
+<li><a href="/sample/blog">BLOG</a></li>
+<li><a href="/sample/contact">CONTACT US</a></li>
 <li><a href="/">HOME</a></li>
-<li><a href="/weare">WE ARE</a></li>
-<li><a href="/work">WORK</a></li>
-<li><a href="/blog">BLOG</a></li>
-<li><a href="/contact">CONTACT US</a></li>
-<li><a href="/admin">AdminLTE</a></li>
 </ul>
 </nav>
 <!-- 상단 로고와 햄버거 메뉴영역 끝 -->
